@@ -1,10 +1,10 @@
 {
-  "name": "rn-fetch-blob",
+  "name": "@gronda-team/rn-fetch-blob",
   "version": "0.12.0",
   "description": "A module provides upload, download, and files access API. Supports file stream read/write for process large files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
     "base-64": "0.1.0",
@@ -29,5 +29,8 @@
   "contributors": [
     "Ben <benhsieh@catchplay.com>",
     "wkh237 <xeiyan@gmail.com>"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
